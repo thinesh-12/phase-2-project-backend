@@ -1,14 +1,17 @@
 {
-  "name": "your-project-name",
+  "name": "phase2-project-backend",
   "version": "1.0.0",
-  "description": "Your project description",
+  "description": "",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "body-parser": "^1.19.0",
-    "fs": "0.0.1-security"
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1"
   }
 }
